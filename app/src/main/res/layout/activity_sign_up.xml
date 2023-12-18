@@ -52,7 +52,7 @@
         app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <EditText
         android:id="@+id/ptFirst"
@@ -69,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.287" />
 
     <EditText
         android:id="@+id/ptLast"
@@ -86,7 +86,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptFirst"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.044" />
 
     <EditText
         android:id="@+id/ptEmail"
@@ -103,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptLast"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <EditText
         android:id="@+id/ptPassword"
@@ -120,7 +120,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptEmail"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <EditText
         android:id="@+id/ptConfirm"
@@ -134,10 +134,10 @@
         android:textColor="#040303"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptPassword"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <EditText
         android:id="@+id/ptPhone"
@@ -154,7 +154,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptConfirm"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.124" />
 
     <Button
         android:id="@+id/btnCreate"
