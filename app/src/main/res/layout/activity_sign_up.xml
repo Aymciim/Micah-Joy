@@ -16,12 +16,13 @@
         android:text="@string/tvTell"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.082" />
 
     <TextView
         android:id="@+id/textView3"
@@ -33,10 +34,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.221" />
 
     <TextView
         android:id="@+id/textView4"
@@ -48,10 +49,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.485" />
 
     <EditText
         android:id="@+id/ptFirst"
@@ -68,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.328" />
 
     <EditText
         android:id="@+id/ptLast"
@@ -102,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ptLast"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <EditText
         android:id="@+id/ptPassword"
@@ -180,19 +181,4 @@
         android:visibility="gone"
         />
 
-    <EditText
-        android:id="@+id/ptUserName"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:background="@drawable/text"
-        android:ems="10"
-        android:hint="@string/ptUsername"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/ptEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959" />
 </androidx.constraintlayout.widget.ConstraintLayout>

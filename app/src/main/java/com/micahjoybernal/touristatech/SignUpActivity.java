@@ -32,7 +32,6 @@ public class SignUpActivity extends AppCompatActivity {
         EditText ptPassword = findViewById(R.id.ptPassword);
         EditText ptConfirm = findViewById(R.id.ptConfirm);
         EditText ptPhone = findViewById(R.id.ptPhone);
-        EditText ptUserName = findViewById(R.id.ptUserName);
         Button btnCreate = findViewById(R.id.btnCreate);
         bar = findViewById(R.id.pbSignUp);
         mAuth = FirebaseAuth.getInstance();
