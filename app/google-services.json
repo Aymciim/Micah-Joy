@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648405229141",
+    "project_id": "tourista-tech",
+    "storage_bucket": "tourista-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648405229141:android:17b9e0fd07b85398fb7edc",
+        "android_client_info": {
+          "package_name": "com.micahjoybernal.touristatech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_AiZZ1RPDZ8shJIuNuVLDj3lqeZrYSXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
