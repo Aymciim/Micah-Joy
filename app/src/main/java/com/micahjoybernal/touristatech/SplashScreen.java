@@ -18,7 +18,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 finish();
-                startActivity(new Intent(SplashScreen.this, SliderScreen.class));
+                startActivity(new Intent(SplashScreen.this, WelcomeScreen.class));
             }
         };
         Timer opening = new Timer();

@@ -58,7 +58,7 @@ public class LogInActivity extends AppCompatActivity {
                                     if (task.isSuccessful()) {
                                         Toast.makeText(LogInActivity.this, "User has successfully logged in!", Toast.LENGTH_LONG).show();
                                         Bar.setVisibility(View.GONE);
-                                        startActivity(new Intent(LogInActivity.this, MainActivity.class));
+                                        startActivity(new Intent(LogInActivity.this, SliderScreen.class));
                                     } else {
                                         Toast.makeText(LogInActivity.this, "User failed to log in", Toast.LENGTH_LONG).show();
                                         Bar.setVisibility(View.GONE);
